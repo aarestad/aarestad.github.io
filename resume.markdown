@@ -1,4 +1,6 @@
-# PETER M. AARESTAD, M.S.
+# Resume
+
+## Peter M Aarestd, M.S.
 > 1532 N Campbell Ave. #2
 > Chicago, IL 60622
 > email: aarestad@gmail.com
