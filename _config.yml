@@ -24,8 +24,15 @@ description: >- # this means to ignore newlines until "baseurl:"
   Peter M. Aarestad: Software engineer, artist, thoughtful person.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: aarestad
+github_username:  aarestad
+linkedin_username: aarestad
+
+minima:
+  social_links:
+    twitter: aarestad
+    github: aarestad
+    linkedin: aarestad
 
 # Build settings
 theme: minima
