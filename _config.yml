@@ -28,12 +28,6 @@ twitter_username: aarestad
 github_username:  aarestad
 linkedin_username: aarestad
 
-minima:
-  social_links:
-    twitter: aarestad
-    github: aarestad
-    linkedin: aarestad
-
 # Build settings
 theme: minima
 plugins:
