@@ -28,8 +28,8 @@ on Cluster Computing and the Grid, 2006, pp.35-42, 16-19 May 2006
 ## WORK EXPERIENCE
 
 ### Tempus Labs, Chicago, IL
-#### Engeineering Lead: 10/2018 - 6/2019
 #### Senior Software Engineer: 11/2017 - 10/2018; 7/2019 - present
+#### Engeineering Lead: 10/2018 - 6/2019
 
 Improved the internal security app used for authentication across all Tempus
 enterprise applications. Currently leading the team responsible for internal
