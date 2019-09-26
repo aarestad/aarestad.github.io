@@ -1,9 +1,9 @@
 ---
-layout: page
+layout: resume
 title: Resume of Peter Aarestad
 ---
 
-## Peter M Aarestad, M.S.
+# Peter M Aarestad, M.S.
 > 1532 N Campbell Ave. #2  
 > Chicago, IL 60622  
 > aarestad@gmail.com
@@ -26,9 +26,9 @@ title: Resume of Peter Aarestad
 
 ## PUBLICATIONS
 
-Aarestad, P.M.; Ching, Avery; Thiruvathukal, G.K.; Choudhary, A.N.,
-"Scalable Approaches for Supporting MPI-IO Atomicity," Sixth IEEE International Symposium
-on Cluster Computing and the Grid, 2006, pp.35-42, 16-19 May 2006
+Aarestad, P.M., Ching, A., Thiruvathukal, G.K., and Choudhary, A.N.
+Scalable Approaches for Supporting MPI-IO Atomicity. _Sixth IEEE International Symposium
+on Cluster Computing and the Grid_, 2006, 35-42.
 
 ## WORK EXPERIENCE
 
