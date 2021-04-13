@@ -29,7 +29,7 @@ github_username:  aarestad
 linkedin_username: aarestad
 
 # Build settings
-theme: minima
+theme: jekyll-theme-tactile
 plugins:
   - jekyll-feed
 
