@@ -4,8 +4,8 @@ title: Resume of Peter Aarestad
 ---
 
 # Peter M Aarestad, M.S.
-> 1532 N Campbell Ave. #2  
-> Chicago, IL 60622  
+> 351 E 44th St.  
+> Chicago, IL 60653  
 > aarestad@gmail.com
 
 ## TECHNICAL SKILLS
