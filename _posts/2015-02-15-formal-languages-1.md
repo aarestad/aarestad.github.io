@@ -56,7 +56,7 @@ G is a <strong>grammar</strong> described as a combination of three sets and one
   <li>V is defined as a set of <b>variables</b>; as few as one. These are usually denoted with capital letters such as S, A, B, etc.</li>
   <li>T is defined as a set of <b>terminal symbols</b>. This is almost always the alphabet &Sigma; that we are already familiar with</li>
   <li>S is a single member of V, referred to as the <b>start variable</b>; by convention, it's usually just the letter S. This variable is assumed to be, naturally, the start of any derivation using our grammar.</li>
-  <li>P is a set of <b>productions</b> similar to our grammar rule above. Productions can contain any number of variables and/or terminal symbols on either side of the arrow, though we specify that the left side contains at least one symbol, while the right side can be empty (i.e. &lambda;).
+  <li>P is a set of <b>productions</b> similar to our grammar rule above. Productions can contain any number of variables and/or terminal symbols on either side of the arrow, though we specify that the left side contains at least one symbol, while the right side can be empty (i.e. &lambda;).</li>
 </ul>
 
 A language, thus, can be defined as all the sentences such that there is some chain of productions in P called a <b>derivation</b> that produces the sentences - we denote this language as L(G), or the language derived from the grammar G.
