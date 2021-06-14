@@ -1,7 +1,9 @@
-layout: page
-title: The Joy of Se... er, WoW
-date: 2006-07-06 13:18:40
+--
+layout: post
+title: "The Joy of Se... er, WoW"
+date: 2006-07-06 13:18:40 -0600
 categories: wow
+--
 
 So, I've been pretty heavily into World of Warcraft for a while now. It certainly didn't start out that way, despite how cool the game looked at first. Back in August 2004, I got my first exposure to the game when I participated in an open stress-test beta. I knew absolutely nothing about the game at the time, and yet was able to pretty painlessly level up a Tauren druid up to 16 by the end of the weekend. I spent most of my time in the Barrens, so I didn't see too much of the game, and there were some aspects of the game that hadn't been tweaked, including a confusing "skill point" system where you accumulated points at seemingly random intervals that you used to "purchase" weapon skills and crafting skills; this was greatly simplified to the current system.
 
