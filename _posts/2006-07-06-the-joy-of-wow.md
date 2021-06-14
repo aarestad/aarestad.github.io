@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Joy of Se... er, WoW"
+author: Peter Aarestad
 date: 2006-07-06 13:18:40 -0600
 categories: wow
 ---
