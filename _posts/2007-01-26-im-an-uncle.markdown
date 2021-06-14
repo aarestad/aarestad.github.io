@@ -8,6 +8,6 @@ categories: family
 
 Please welcome Wesley Ryan Fergus into the world. Born this morning at 5:48, clocking in at 6 pounds, 9 ounces, and 20 1/4 inches long.
 
-<img title="Patrick and Wesley" alt="Patrick and Wesley" src="patrickandwes.jpg" />
+<img title="Patrick and Wesley" alt="Patrick and Wesley" src="/assets/images/patrickandwes.jpg" />
 
-<img title="Katie and Wesley" alt="Katie and Wesley" src="katieandwes.jpg" />
+<img title="Katie and Wesley" alt="Katie and Wesley" src="/assets/images/katieandwes.jpg" />
