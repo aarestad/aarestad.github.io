@@ -35,10 +35,9 @@ on Cluster Computing and the Grid_, 2006, 35-42.
 #### Senior Software Engineer: 11/2017 - 10/2018; 7/2019 - present
 #### Engeineering Lead: 10/2018 - 6/2019
 
-Improved the internal security app used for authentication across all Tempus
-enterprise applications. Currently leading the team responsible for internal
-tools used by variant scientists to edit the genetic data reports sent to
-doctors and partners to help treat thousands of cancer patients.
+Worked with the bioinformatics software team on improved tools and supporting and improving existing tools. Aided in improving the AWS Step Functions-based orchestration tools with the eventual goal of bringing the whole of the bioinformatics software pipeline under control of the Step Function.
+
+Currently leading architecture of a new software platform to enable internal users to quickly on-board new health reports for doctors and patients.
 
 ### Emmi Solutions, Chicago, IL
 #### Senior Engineer: 11/2015 - 11/2017
