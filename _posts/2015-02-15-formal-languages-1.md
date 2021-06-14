@@ -1,22 +1,24 @@
-Formal Languages, Part 1: Basic Concepts
-===============
+---
+layout: post
+title: "Formal Languages, Part 1: Basic Concepts"
+author: Peter Aarestad
+date: 2015-02-15 20:22:23 -0500
+categories: cs
+---
 
-Posted: 2015-02-15 20:22:23
--------------------------
-
-Last week, there was a <a href="http://www.catonmat.net/blog/perl-regex-that-matches-prime-numbers/">link</a>&#160;posted on Hacker News that described a regular expression that only matches non-prime numbers (expressed as a string of "1"s, i.e. in so-called "unary" notation):
+Last week, there was a <a href="http://www.catonmat.net/blog/perl-regex-that-matches-prime-numbers/">link</a> posted on Hacker News that described a regular expression that only matches non-prime numbers (expressed as a string of "1"s, i.e. in so-called "unary" notation):
 
 ```perl
 /^1?$|^(11+?)\1+$/
 ```
 
-<a href="https://news.ycombinator.com/item?id=3391547">Commenters</a> noted that this is not a&#160;<em>real</em> regular expression. But what does that mean? Anyone with experience in Perl regular expressions can see that this clearly will work just fine; the linked article does a good job of breaking down how this goes about matching (or not matching) a given string of 1s. You see, the history of Unix has sort of muddied the term "regular expression" to the point that it means something in practice that&#160;is broader than the theory. Originally, the old Unix command line tool <code>grep</code> was designed with classical "regular expressions" in mind. However, as is well-known, classical regular expressions are very limited, and so a separate tool called <code>egrep</code> was written to accept so-called "extended regular expressions", and eventually <code>egrep</code>'s notion of an extended RE is what we now call a "regular expression".
+<a href="https://news.ycombinator.com/item?id=3391547">Commenters</a> noted that this is not a <em>real</em> regular expression. But what does that mean? Anyone with experience in Perl regular expressions can see that this clearly will work just fine; the linked article does a good job of breaking down how this goes about matching (or not matching) a given string of 1s. You see, the history of Unix has sort of muddied the term "regular expression" to the point that it means something in practice that is broader than the theory. Originally, the old Unix command line tool <code>grep</code> was designed with classical "regular expressions" in mind. However, as is well-known, classical regular expressions are very limited, and so a separate tool called <code>egrep</code> was written to accept so-called "extended regular expressions", and eventually <code>egrep</code>'s notion of an extended RE is what we now call a "regular expression".
 
-So what is a "classical" regular expression? To explore that question, we need to look into the field called "formal languages". Despite the name, the field has little to do with programming languages or spoken languages, although it is used in theoretical studies of these kinds of language. Formal language study is the study of patterns, in a way. It asks: what is the simplest pattern which can describe&#160;this (usually infinite) set of strings? So to understand what a regular expression is, we need to set down some definitions first that will allow us to talk about formal languages in general. Once we do that, we can talk about the family of so-called "regular languages" that regular expressions encompass, and go beyond that to define more powerful languages.
+So what is a "classical" regular expression? To explore that question, we need to look into the field called "formal languages". Despite the name, the field has little to do with programming languages or spoken languages, although it is used in theoretical studies of these kinds of language. Formal language study is the study of patterns, in a way. It asks: what is the simplest pattern which can describe this (usually infinite) set of strings? So to understand what a regular expression is, we need to set down some definitions first that will allow us to talk about formal languages in general. Once we do that, we can talk about the family of so-called "regular languages" that regular expressions encompass, and go beyond that to define more powerful languages.
 
 <h2>Basic concepts of formal languages</h2>
 
-A&#160;<strong>language</strong> is just a set of&#160;<strong>string</strong>s that are constructed from an&#160;<strong>alphabet</strong>. An alphabet is simply a finite set of symbols such as 'a', 'b', 'c', etc. Traditionally, an alphabet is denoted with the symbol &Sigma;. Strings are composed of zero or more symbols from the alphabet - the so-called&#160;<strong>empty string</strong> is traditionally denoted by&#160;&lambda;.
+A <strong>language</strong> is just a set of <strong>string</strong>s that are constructed from an <strong>alphabet</strong>. An alphabet is simply a finite set of symbols such as 'a', 'b', 'c', etc. Traditionally, an alphabet is denoted with the symbol &Sigma;. Strings are composed of zero or more symbols from the alphabet - the so-called <strong>empty string</strong> is traditionally denoted by &lambda;.
 
 Since strings can contain many consecutive copies of a particular symbol, we can use a shorthand to represent repetition:
 

@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Formal Languages, part 2: Regular Expressions and Regular Languages"
+author: Peter Aarestad
+date: 2015-02-25 21:34:46 -0500
+categories: cs
+---
+
+Before I start in on this entry, I need to give credit where credit is due and note that my main reference source for these blog posts on formal languages is my grad school textbook, <a href="http://www.amazon.com/Introduction-Formal-Languages-Automata-5th/dp/144961552X"><em>An Introduction to Formal Languages and Automata, Third Edition</em></a> by Peter Linz (the 5th edition is linked). If you're out there, Peter, thanks for writing an awesome intro to this nerdy topic, and congratulations on having a great first name. :)
+
+So let's talk about regular expressions. Again, we're not talking about the <a href="http://perldoc.perl.org/perlre.html">Perl</a> version with lazy matching and look-ahead and look-behind and all that magic; we're discussingaustere, formalized regular expressions. The idea is that a regular expression matches a set of strings, and those strings make up a<strong>regular language</strong>. (This is jumping the gun a bit because we actually define regular languages using <strong>finite automata</strong>, but we'll come back to that later.) For formality's sake, we first note that the empty set &#8709; and the empty string &#955; themselves are regular expressions; the former is, of course, a set of zero sentences, while the latter is a set of one sentence, namely the empty string. In addition, any member<em>a</em> in a given alphabet &#931; is also a regular expression of a single sentence one symbol long. We then add on concatenation (<em>r<sub>1</sub></em>&#183;<em>r<sub>2</sub></em>, or more simply, <em>r<sub>1</sub>r<sub>2</sub></em>), alternation (<em>r<sub>1</sub></em> + <em>r<sub>2</sub></em>, which is expressed in Unix and Perl REs as <em>r<sub>1</sub></em> \| <em>r<sub>2</sub></em>, and means "<em>r<sub>1</sub></em> or <em>r<sub>2</sub></em>") and star-closure (<em>r*</em>, i.e. zero or more<em>r</em>s in a row), where the <em>r</em>s are composed of the <em>primitive</em> regular expressions &#8709;, &#955;, and all <em>a</em> &#8712; &#931;. (We almost always ignore the &#8709; and &#955;, however, and just talk about combinations of symbols in the alphabet &#931;.) We can also group sub-expressions with parentheses. So this way, we can say things like "a language with an even number of <em>a</em>s followed by an odd number of <em>b</em>s", which would be expressed as:
+
+<em>r</em> = (<i>aa</i>)*(<i>bb</i>)*<i>b</i>
+
+To break that down, we first see that (<em>aa</em>)\* represents any number of <i>aa</i>s: 0, 1, 2, etc., and so gives us an even number of <i>a</i>s. The second part, (<i>bb</i>)\*<i>b</i>, indicates that we again have an even number of <i>b</i>s, but then there is one extra <i>b</i> at the end, giving us an odd number. We can give many examples of regular expressions: "all bit strings (i.e. strings of 0s and 1s) which has at least one pair of consecutive 0s", "all strings on an alphabet such that the length is divisible by 3", "all bit strings that, when interpreted as a binary number, is greater than or equal to 39", and so on. So it seems like we can define quite a few complicated languages using just this simple way of expressing patterns! However, remember the example from part 1:
+
+```perl
+/^1?$|^(11+?)\1+$/
+```
+
+This isn't a true regular expression, as we noted - you can't do things in regular expressions like "lazy matching" or "back-referencing". All we can say is "this followed by that", "this or that" and "zero or more thises". But maybe it's possible that there <em>is</em> a regular expression that does what the above does, namely match all composite numbers expressed in unary notation. Try if you'd like, but you'll soon see it's futile. In another post, I'll explain the goofily-named <strong>pumping lemma</strong> which is used to prove that a particular grammar does not represent a regular language, and thus cannot be represented by a regular expression. We'll then use the pumping lemma to prove that we can't construct a regular expression for this language.
+
+I think that's enough for now. Next time, we'll discuss finite automata and how they're used to truly define regular languages. As a preview, we'll see that there are two types: <em>deterministic</em> automata which require that you always know what to do next, and <i>non-deterministic</i> automata which allows "guesses" as to how to proceed. The magic part, as we'll see, is that they are equivalent! But you'll have to come back later to see what I'm talking about. :)
