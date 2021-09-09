@@ -10,8 +10,9 @@ title: Resume of Peter Aarestad
 ## TECHNICAL SKILLS
 
 * Java Technologies: Spring MVC, Spring Data, Hibernate, GWT, Core Java, Java Servlets, Sockets, Swing
-* Front-end Technologies: AngularJS
-* Languages: Java, JavaScript, Objective-C, C (standard C library, Berkeley sockets), C++, Python, Perl, bash shell
+* JavaScript/TypeScript Technologies: NodeJS, NestJS, TypeORM
+* Front-end Technologies: AngularJS, React
+* Languages: Java, TypeScript, JavaScript, Objective-C, C (standard C library, Berkeley sockets), C++, Python, Perl, bash shell
 * Web Technologies: HTML, JSP
 * Database Technologies: MySQL, PostgreSQL, Microsoft SQL Server, general SQL programming
 * Operating Systems: Mac OS X, Unix (various versions including CentOS, Ubuntu, and Solaris), iOS, Android
