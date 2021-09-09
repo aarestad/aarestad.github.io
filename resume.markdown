@@ -11,7 +11,7 @@ title: Resume of Peter Aarestad
 
 * Java Technologies: Spring MVC, Spring Data, Hibernate, GWT, Core Java, Java Servlets, Sockets, Swing
 * JavaScript/TypeScript Technologies: NodeJS, NestJS, TypeORM
-* Front-end Technologies: AngularJS, React
+* Front-end Technologies: React, AngularJS, JQuery
 * Languages: Java, TypeScript, JavaScript, Objective-C, C (standard C library, Berkeley sockets), C++, Python, Perl, bash shell
 * Web Technologies: HTML, JSP
 * Database Technologies: MySQL, PostgreSQL, Microsoft SQL Server, general SQL programming
@@ -34,7 +34,7 @@ on Cluster Computing and the Grid_, 2006, 35-42.
 
 ### Tempus Labs, Chicago, IL
 #### Senior Software Engineer: 11/2017 - 10/2018; 7/2019 - present
-#### Engeineering Lead: 10/2018 - 6/2019
+#### Engineering Lead: 10/2018 - 6/2019
 
 Worked with the bioinformatics software team on improved tools and supporting and improving existing tools. Aided in improving the AWS Step Functions-based orchestration tools with the eventual goal of bringing the whole of the bioinformatics software pipeline under control of the Step Function.
 
@@ -75,3 +75,4 @@ Participated in ad hoc development projects related to Sears' sale of credit bus
 #### Application Development Specialist: 10/2000 - 11/2003
 
 Supported mission-critical, real-time, Unix-based credit acquisition system by writing shell and Perl scripts and performing system maintenance as needed. Aided development of in-house credit account scoring engine written in C by writing several functions for the system and developing a C-based import program. Enhanced J2EE Web-based credit card application system by improving JSP front-end and coding a portion of the back-end Java servlet code, improving on previously-written code; continuing to support system through present. Developed shell and Perl script-based rewrite of logistics scheduling system. Developed J2EE internal inventory reporting system as part of company-wide Performance Improvement Project. Improved productivity of in-house mainframe testers by writing and enhancing screen-scraping scripts using the WinRunner software package; also developed Microsoft Excel/VBA-based spreadsheet to simplify test development and execution. Moved to Citigroup in November 2003 as consequence of credit business sale by Sears to Citigroup.
+
