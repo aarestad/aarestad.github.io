@@ -12,7 +12,7 @@ title: Resume of Peter Aarestad
 * Java Technologies: Spring MVC, Spring Data, Hibernate, GWT, Core Java, Java Servlets, Sockets, Swing
 * JavaScript/TypeScript Technologies: NodeJS, NestJS, TypeORM
 * Front-end Technologies: React, AngularJS, JQuery
-* Languages: Java, TypeScript, JavaScript, Objective-C, C (standard C library, Berkeley sockets), C++, Python, Perl, bash shell
+* Languages: Java, TypeScript, JavaScript, Objective-C, C (standard C library, Berkeley sockets), C++, Rust, Python, Perl, bash shell
 * Web Technologies: HTML, JSP
 * Database Technologies: MySQL, PostgreSQL, Microsoft SQL Server, general SQL programming
 * Operating Systems: Mac OS X, Unix (various versions including CentOS, Ubuntu, and Solaris), iOS, Android
@@ -32,8 +32,13 @@ on Cluster Computing and the Grid_, 2006, 35-42.
 
 ## WORK EXPERIENCE
 
+### Google LLC, Chicago, IL
+#### Software Engineer III: 2/2022 - present
+
+Designed and implemented an internal test service that mimics the API provided by a third-party telecom service, allowing teams to write integration tests without incurring the costs of making "real" service calls. Designing a testing framework to be used internally that will allow front-end web tests to use data setup that has been generated and validated by back-end service tests.
+
 ### Tempus Labs, Chicago, IL
-#### Senior Software Engineer: 11/2017 - 10/2018; 7/2019 - present
+#### Senior Software Engineer: 11/2017 - 10/2018; 7/2019 - 2/2022
 #### Engineering Lead: 10/2018 - 6/2019
 
 Worked with the bioinformatics software team on improved tools and supporting and improving existing tools. Aided in improving the AWS Step Functions-based orchestration tools with the eventual goal of bringing the whole of the bioinformatics software pipeline under control of the Step Function.
