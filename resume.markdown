@@ -16,7 +16,7 @@ title: Resume of Peter Aarestad
 * Web Technologies: HTML, JSP
 * Database Technologies: MySQL, PostgreSQL, Microsoft SQL Server, general SQL programming
 * Operating Systems: Mac OS X, Unix (various versions including CentOS, Ubuntu, and Solaris), iOS, Android
-* IDE: IntelliJ IDEA, Eclipse
+* IDE: IntelliJ IDEA, Visual Studio Code, Eclipse
 
 ## EDUCATION/AWARDS
 
