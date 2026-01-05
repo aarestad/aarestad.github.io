@@ -9,12 +9,12 @@ title: Resume of Peter Aarestad
 
 ## TECHNICAL SKILLS
 
-* Java Technologies: Spring MVC, Spring Data, Hibernate, GWT, Core Java, Java Servlets, Sockets, Swing
+* Front-end Technologies: React, AngularJS, JQuery, Ruby On Rails
 * JavaScript/TypeScript Technologies: NodeJS, NestJS, TypeORM
-* Front-end Technologies: React, AngularJS, JQuery
-* Languages: Java, TypeScript, JavaScript, Objective-C, C (standard C library, Berkeley sockets), C++, Rust, Python, Perl, bash shell
-* Web Technologies: HTML, JSP
+* Web Technologies: HTML, JSP, HAML
 * Database Technologies: MySQL, PostgreSQL, Microsoft SQL Server, general SQL programming
+* Java Technologies: Spring MVC, Spring Data, Hibernate, GWT, Core Java, Java Servlets, Sockets, Swing
+* Languages: Java, TypeScript, JavaScript, Ruby, Python, Swift, Objective-C, C (standard C library, Berkeley sockets), C++, Rust, Perl, bash shell
 * Operating Systems: Mac OS X, Unix (various versions including CentOS, Ubuntu, and Solaris), iOS, Android
 * IDE: IntelliJ IDEA, Visual Studio Code, Eclipse
 
@@ -27,23 +27,25 @@ title: Resume of Peter Aarestad
 ## PUBLICATIONS
 
 Aarestad, P.M., Ching, A., Thiruvathukal, G.K., and Choudhary, A.N.
-Scalable Approaches for Supporting MPI-IO Atomicity. _Sixth IEEE International Symposium
-on Cluster Computing and the Grid_, 2006, 35-42.
+Scalable Approaches for Supporting MPI-IO Atomicity. *Sixth IEEE International Symposium on Cluster Computing and the Grid*, 2006, 35-42.
 
 ## WORK EXPERIENCE
 
-### Google LLC, Chicago, IL
-#### Software Engineer III: 2/2022 - present
+### LandscapeHub, Chicago, IL
+#### Senior Software Engineer: 4/2024 - 12/2025
 
-Designed and implemented an internal test service that mimics the API provided by a third-party telecom service, allowing teams to write integration tests without incurring the costs of making "real" service calls. Designing a testing framework to be used internally that will allow front-end web tests to use data setup that has been generated and validated by back-end service tests.
+Maintained and improving a Ruby-on-Rails-based e-commerce website, with Postgres and OpenSearch on the back end, as well as supplier integration tools written in Python using a YAML-based DSL. Maintained and improved integrations between order workflow and HubSpot to help drive new sales.
+
+### Google LLC, Chicago, IL
+#### Software Engineer III: 2/2022 - 3/2024
+
+Designed and implemented an internal test service that mimics the API provided by a third-party telecom service, allowing teams to write integration tests without incurring the costs of making "real" service calls. Designed a testing framework to be used internally that will allow front-end web tests to use data setup that has been generated and validated by back-end service tests.
 
 ### Tempus Labs, Chicago, IL
 #### Senior Software Engineer: 11/2017 - 10/2018; 7/2019 - 2/2022
 #### Engineering Lead: 10/2018 - 6/2019
 
-Worked with the bioinformatics software team on improved tools and supporting and improving existing tools. Aided in improving the AWS Step Functions-based orchestration tools with the eventual goal of bringing the whole of the bioinformatics software pipeline under control of the Step Function.
-
-Currently leading architecture of a new software platform to enable internal users to quickly on-board new health reports for doctors and patients.
+Worked with the bioinformatics software team on improved tools and supporting and improving existing tools. Aided in improving the AWS Step Functions-based orchestration tools with the eventual goal of bringing the whole of the bioinformatics software pipeline under control of the Step Function. Designed and implemented a new software platform to enable internal users to quickly on-board new health reports for doctors and patients.
 
 ### Emmi Solutions, Chicago, IL
 #### Senior Engineer: 11/2015 - 11/2017
